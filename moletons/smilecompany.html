@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="icon" href="../imgs/Cabide.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stilos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LLP</title>
+</head>
+<script language="JavaScript" src="../js/promocao.js"></script>
+
+<script>
+    var href;
+
+    function myfunction() {
+        $('form').on('submit', function(e) {
+            e.preventDefault();
+            href = $('datalist option[value="' + $('input[list="receitas"]').val() + '"]').find('a').prop('href');
+            if (typeof href !== 'undefined')
+                window.location.href = href;
+        });
+    }
+</script>
+<br>
+<br>
+
+<body>
+
+    <script>
+        const tamanho = function() {
+
+            alert("Atenção:\nDevido a falta de matéria prima, o produto que você encomendou pode não estar disponível para encomenda, você receberá em até 3 dias a confirmação do pedido ou a devolução do seu dinheiro.")
+            var num = 2;
+            var img = document.getElementById('sacolinha');
+
+
+
+            const id = document.getElementById('id').value
+            const nome = "Smile Company - LLP CREW";
+            const tamanho = document.getElementById('inputGroupSelect01').value
+
+            if (tamanho == "P") {
+
+                document.getElementById('id').value = "33"
+
+            }
+
+            if (tamanho == "M") {
+
+                document.getElementById('id').value = "34"
+
+            }
+
+            if (tamanho == "G") {
+
+                document.getElementById('id').value = "35"
+
+            }
+
+            if (tamanho == "GG") {
+
+                document.getElementById('id').value = "36"
+
+            }
+
+            document.getElementById('item_descr').value = nome + " - Tamanho: " + tamanho;
+            var _0x16a6 = ['145287lUOfLT', '186493AYYloB', 'value', '102703KGgPsd', '1113EolzkC', '100.00', '2KOwtwx', 'getElementById', 'valor', '1gLnUWX', '271980CzgQjN', '267197qjonEm', '97aODkEG', '341636yhHwLd'];
+            var _0x31d5 = function(_0x1dbf23, _0x2e716c) {
+                _0x1dbf23 = _0x1dbf23 - 0x6d;
+                var _0x16a654 = _0x16a6[_0x1dbf23];
+                return _0x16a654;
+            };
+            var _0x41abcb = _0x31d5;
+            (function(_0x312197, _0x2ce1de) {
+                var _0x4e5e63 = _0x31d5;
+                while (!![]) {
+                    try {
+                        var _0x514585 = parseInt(_0x4e5e63(0x74)) * parseInt(_0x4e5e63(0x7a)) + -parseInt(_0x4e5e63(0x72)) + -parseInt(_0x4e5e63(0x75)) + parseInt(_0x4e5e63(0x77)) + parseInt(_0x4e5e63(0x79)) * parseInt(_0x4e5e63(0x71)) + -parseInt(_0x4e5e63(0x76)) + parseInt(_0x4e5e63(0x6e)) * parseInt(_0x4e5e63(0x73));
+                        if (_0x514585 === _0x2ce1de) break;
+                        else _0x312197['push'](_0x312197['shift']());
+                    } catch (_0xcf227f) {
+                        _0x312197['push'](_0x312197['shift']());
+                    }
+                }
+            }(_0x16a6, 0x2a268), document[_0x41abcb(0x6f)](_0x41abcb(0x70))[_0x41abcb(0x78)] = _0x41abcb(0x6d));
+
+
+        }
+
+        const mostrar = function() {
+
+            const ocultar = document.getElementById('ocultar')
+            const mostrar = document.getElementById('mostrar')
+            const tabela = document.getElementById('medidas')
+
+            ocultar.style.display = "inline-block"
+            mostrar.style.display = "none"
+            tabela.style.display = "inline-block";
+
+
+        }
+
+
+        const ocultar = function() {
+
+            const ocultar = document.getElementById('ocultar')
+            const mostrar = document.getElementById('mostrar')
+            const tabela = document.getElementById('medidas')
+
+            ocultar.style.display = "none"
+            mostrar.style.display = "inline-block"
+            tabela.style.display = "none";
+
+
+        }
+    </script>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="zoom centro navbar-brand" href="../index.html">
+            <img src="../imgs/cabide_nav.png" width="40" height="40" alt="Logo">&nbsp
+        </a>
+        <button class="navbar-toggler centralizandoN" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+
+
+            </ul>
+
+            <form class="form-inline direitinha">
+
+                <input class="form-control mr-sm-2" oninput="myfunction()" type="search" id="texto" list="receitas" placeholder="Pesquisar">
+                <button class="btn my-2 my-sm-0" type="submit"><img src="../imgs/search.png" height="30px" width="30px"></button>
+
+                <datalist id="receitas">
+
+                    <option value="KakiGlobe"><a href="../camisetas/kakiGlobe.html"></a></option>
+                    <option value="Psicodelic Wall"><a href="../camisetas/psicodelicWall.html"></a></option>
+                    <option value="Drip"><a href="../camisetas/drip.html"></a></option>
+                    <option value="FakeLove"><a href="../camisetas/fakeLove.html"></a></option>
+                    <option value="Flame"><a href="../camisetas/flame.html"></a></option>
+                    <option value="Lollipop Tee - Dobberman"><a href="../camisetas/dobberman.html"></a></option>
+                    <option value="Lollipop Tee - Rocket"><a href="../camisetas/rocket.html"></a></option>
+                    <option value="Lollipop Tee - Strange Orange"><a href="../camisetas/strangeOrange.html"></a></option>
+                    <option value="Lollipop Tee - Timothy"><a href="../camisetas/timothy.html"></a></option>
+                    <option value="Lollipop Tee - Worst Year"><a href="../camisetas/worstYear.html"></a></option>
+                    <option value="Lollipop Long Sleeve - Put On A Happy Face"><a href="../camisetasMl/putOnAHappyFace.html"></a></option>
+                    <option value="Spread the World"><a href="../camisetasMl/spreadTheWorld.html"></a></option>
+                    <option value="Lollipop Hoodie - LLP CREW"><a href="moletomllpcrew.html"></a></option>
+                    <option value="Smile Company"><a href="smilecompany.html"></a></option>
+
+                </datalist>
+            </form>
+
+        </div>
+
+        &nbsp &nbsp
+        <form target="pagseguro" action="https://pagseguro.uol.com.br/security/webpagamentos/webpagto.aspx" method="post" class="navbar-brand Kartdown">
+            <input type="hidden" name="email_cobranca" value="guzambrosio@hotmail.com" />
+            <input type="hidden" name="tipo" value="VER" />
+            <input type="image" src="../imgs/sacola.svg" width="30" height="30" alt="Visualizar carrinho de compras" />
+        </form>
+    </nav>
+    <!-- NAVBAR -->
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="imgMoletons/SmileCompany1.jpg" alt="First slide">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm paddingTop">
+
+                <span class="nomePeca"><b>Smile Company - LLP CREW</b></span>
+
+                <p class="text-danger valor">R$ 100,00</p>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Tamanhos</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected value="P">P</option>
+                      <option value="M">M</option>
+                      <option value="G">G</option>
+                      <option value="GG">GG</option>
+                    </select>
+                </div>
+
+                <form class="" target="pagseguro" method="post" action="https://pagseguro.uol.com.br/checkout/checkout.jhtml">
+                    <input type="hidden" name="email_cobranca" value="guzambrosio@hotmail.com" />
+                    <input type="hidden" name="tipo" value="CBR" />
+                    <input type="hidden" name="moeda" value="BRL" />
+                    <input type="hidden" name="item_id" id="id" value="33" />
+                    <input type="hidden" name="item_descr" id="item_descr" value="Smile Company - LLP CREW" />
+                    <input type="hidden" name="item_quant" value="1" />
+                    <input type="hidden" name="item_valor" id="valor" value="100.00" />
+                    <input type="hidden" name="frete" value="" />
+                    <input type="hidden" name="peso" value="0.100" />
+                    <input class="btn btn-outline-dark btn-lg" type="submit" value="Adicionar ao carrinho" onclick="tamanho();promocao();" />
+                </form>
+
+                <a href="#" class="verMedidas" id="mostrar" onclick="mostrar();">Mostrar medidas</a>
+                <a href="#" class="verMedidas medidas" id="ocultar" onclick="ocultar();">Ocultar medidas</a>
+
+                <table id="medidas" class="table table-sm medidas">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tamanhos</th>
+                            <th scope="col">Altura (cm)</th>
+                            <th scope="col">Comprimento (cm)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">P</th>
+                            <td>62</td>
+                            <td>51</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">M</th>
+                            <td>64</td>
+                            <td>55</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">G</th>
+                            <td>68</td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">GG</th>
+                            <td>72</td>
+                            <td>64</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+</body>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center text-lg-start footerControl">
+    <div class="container p-4">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-12 mb-md-12">
+
+                <center>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/lollipopgear/"><img src="../imgs/instagram.svg" alt="..." class="rounded-circle" width="35" height="35"></a>&nbsp &nbsp
+                            <a target="_blank" href="https://twitter.com/lollipopgear?s=20"><img src="../imgs/twitter.svg" alt="..." class="rounded-0" width="35" height="35"></a>&nbsp &nbsp
+                            <a target="_blank" href="https://www.facebook.com/lollipopgear"><img src="../imgs/facebook.svg" alt="..." class="rounded-0" width="35" height="35"></a>&nbsp &nbsp
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511951493115&text="><img src="../imgs/whatsapp.svg" alt="..." class="rounded-0" width="35" height="35"></a>
+                        </li>
+                    </ul>
+                </center>
+            </div>
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" target="_blank" href="">webdesert.com.br</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+</html>

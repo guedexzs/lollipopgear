@@ -1,0 +1,110 @@
+@font-face {
+    font-family: aBigDeal;
+    src: url(../Fontes/unbutton.ttf)
+}
+
+body {
+    font-family: 'Helvetica Neue LT Std Roman', sans-serif;
+}
+
+.headerTitle {
+    font-family: aBigDeal;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+b {
+    color: rgb(61, 60, 60);
+}
+
+.links:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.tiposRoupas {
+    margin: 1vw auto;
+    width: 90vw;
+}
+
+.banner-venda {
+    margin: 1vw;
+    width: 90vw;
+}
+
+footer {
+    margin-top: 1vw;
+}
+
+.carouselExampleFade {
+    width: 15vw;
+}
+
+.zoom:hover {
+    transform: scale(1.02);
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.paddingTop {
+    line-height: 6.5vh;
+    padding-top: 1vw;
+}
+
+.nomePeca {
+    font-size: 4vh;
+}
+
+.valor {
+    font-size: 3vh;
+}
+
+.medidas {
+    display: none;
+}
+
+.verMedidas:hover {
+    text-decoration: underline;
+}
+
+tr {
+    text-align: center;
+}
+
+.Kartdown {
+    margin-top: 0.5vh;
+    float: right;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .centro {
+        margin-left: 0%;
+    }
+    .centralizandoN {
+        margin-left: 11vw;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 3000px) {
+    .centro {
+        margin-left: 50%;
+    }
+}
+
+@media (min-height: 10px) and (max-height: 900px) {
+    .footerControl {
+        margin-left: 0%;
+    }
+}
+
+@media (min-height: 910px) and (max-height: 5000px) {
+    .footerControl {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
